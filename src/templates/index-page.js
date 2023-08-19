@@ -991,7 +991,9 @@ padding:'0',
 <span  className="free" style={{fontSize:'1.7rem', fontWeight:'bold', textTransform:'', background:'rgba(0,0,0,0.30)', borderRadius:'12px', marginTop:'-40px', position:'relative', width:'100%', color:'#fff', display:'flex', justifyContent:'center', textShadow:'0px 2px 0px #222', filter:'drop-shadow(0px 0px 10px var(--theme-ui-colors-siteColor))', border:'1px solid var(--theme-ui-colors-siteColor)' }}>Get PIRATE</span>
 
 <br />
-PIRATE Social Platform<br />+<br />
+PIRATE Social Platform<br />
+<span style={{fontSize:'130%'}}>+</span>
+<br />
 Your own custom homepage<br />
 Custom Resume and Skills section<br />
 {/* Ready To Use = Easy to Learn<br /> */}

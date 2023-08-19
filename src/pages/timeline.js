@@ -130,7 +130,7 @@ const TimeLine = () => {
               <input
   key={index}
   ref={(el) => (inputRefs.current[index] = el)}
-  type="text"
+  type="password"
   maxLength="1"
   onChange={(event) => handleInputChange(event, index)}
   onKeyDown={(event) => handleKeyDown(event, index)}

@@ -38,7 +38,7 @@ const AboutPage = () => {
       ) : (
         ""
       )}
-      <div className="container panel" style={{ maxWidth: "1024px", margin: "0 auto", paddingTop: "20px" }}>
+      <div className="container panel" style={{ maxWidth: "", margin: "0 auto", paddingTop: "0" }}>
         <div className="mobile">
           <GoBack />
         </div>
