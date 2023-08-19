@@ -3,7 +3,7 @@ import useSiteMetadata from "../hooks/SiteMetadata"
 // import GoBack from "../components/goBack"
 // import Theme from "../components/theme"
 // import Consent from "./Consent"
-// import Install from "./install-footer"
+import Install from "./install-footer"
 import Icons from "../../static/data/socialmedia.json"
 import {
   RiFacebookBoxFill,
@@ -201,7 +201,7 @@ export default function Footer() {
     {/* <Consent /> */}
 <br />
 
-    {/* <Install /> */}
+    <Install />
 <br />
     
 
