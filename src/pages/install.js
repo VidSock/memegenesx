@@ -5,6 +5,7 @@ import useSiteMetadata from "../hooks/SiteMetadata"
 import styled from "styled-components"
 import Layout from "../components/siteLayout"
 import { Helmet } from "react-helmet"
+import Intro from "../../static/assets/grid-loader.svg"
 // import useNetlifyIdentity from '../components/useNetlifyIdentity';
 const CustomBox = styled.div`
 
@@ -13,7 +14,7 @@ const CustomBox = styled.div`
 
 function Pirate() {
   const { showNav } = useSiteMetadata()
-  const [loggedIn] = useState(false);
+
   
 
 
@@ -48,11 +49,8 @@ function Pirate() {
 
 }}>
 <div className="scroll-container1" style={{display:'flex', justifyContent:'center', maxWidth:'', height:'calc(100vh - 70px)', margin:'0 auto 0 auto', position:'relative', left:'0', right:'0', top:'0'}}>
-{loggedIn ? (
-  <div style={{display:'grid', justifyContent:'center', alignItems:'center', position:'relative', left:'', top:'', cursor:''}}>LOGGED IN</div>
-) : (
-  <div style={{display:'grid', justifyContent:'center', alignItems:'center', position:'relative', left:'', top:'', cursor:'', border:'0px solid red'}}>LOGGED OUT</div>
-  )}
+
+<div style={{display:'grid', justifyContent:'center', alignItems:'center', position:'relative', left:'', top:'', cursor:''}}><Intro style={{height:'100vh', width:'100vw', position:'relative', zIndex:'0', top:'0', objectFit:'cover',}} /></div>
 </div>
 </section>
 {/* <div className="scroll-container1" style={{display:'flex', justifyContent:'start', maxWidth:'', height:'calc(100vh - 70px)', margin:'0 auto 0 auto', position:'relative', left:'0', right:'0', top:'0'}}>
