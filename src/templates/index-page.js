@@ -17,15 +17,15 @@ import { MdPause } from "react-icons/md"
 import { MdVolumeOff } from "react-icons/md"
 import { FaRegPlusSquare } from 'react-icons/fa';
 import { IoShareOutline } from 'react-icons/io5';
-import { AiOutlineCloseCircle, AiOutlineAudioMuted } from 'react-icons/ai';
+import { AiOutlineAudioMuted } from 'react-icons/ai';
 // import { MdVolumeDown } from "react-icons/md"
 // import { RiArrowRightDownFill } from "react-icons/ri"
 // import TwilightLogo from "../../static/assets/logo.svg"
-import Install from "../components/install-footer"
-import Faqs from "../components/equipment-list"
-import SignUp from "../components/newssign"
+// import Install from "../components/install-footer"
+// import Faqs from "../components/equipment-list"
+// import SignUp from "../components/newssign"
 // import SearchSlider from "../components/search1"
-import LHScores from "../../static/assets/logo.svg"
+// import LHScores from "../../static/assets/logo.svg"
 
 // import styled from "styled-components"
 import Social from "../components/social"
