@@ -13,7 +13,7 @@ const CustomBox = styled.div`
 
 function Pirate() {
   const { showNav } = useSiteMetadata()
-  const [loggedIn] = useState(false);
+  // const [loggedIn] = useState(false);
   
 
 
@@ -34,11 +34,11 @@ function Pirate() {
       )}
 
 
-{loggedIn ? (
+{/* {loggedIn ? (
   <div style={{position:'relative', left:'', top:'222px', cursor:'pointer'}}>LOGGED IN</div>
 ) : (
   <div style={{position:'relative', left:'', top:'222px', cursor:'pointer'}}>LOGGED OUT</div>
-  )}
+  )} */}
 
 
 <div className="scroll-container1" style={{display:'flex', justifyContent:'start', maxWidth:'', height:'calc(100vh - 70px)', margin:'0 auto 0 auto', position:'relative', left:'0', right:'0', top:'0'}}>
