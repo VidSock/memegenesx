@@ -15,7 +15,7 @@ logo_url: ../assets/logo.svg
 media_folder: "static/assets"
 public_folder: "/assets"
 # publish_mode: editorial_workflow
-# site_url: ""
+site_url: "https:/piratepro.app/timeline"
 # display_url: ""
 show_preview_links: false
 
