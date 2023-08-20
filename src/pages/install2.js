@@ -89,7 +89,7 @@ function Pirate() {
 
 
 
-<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 4%', position:'relative',
+<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'20vh auto 0 auto', padding:'0 4%', position:'relative',
  alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
   color:'#fff',
   fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
@@ -111,7 +111,7 @@ Simply follow the prompts and ignore the scary jargon
 <strong>Don't worry - we handle all the hard stuff for you!</strong>
 <br />
 <a style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} class="button" href="https://app.netlify.com/start/deploy?repository=https://github.com/twilightscapes/pirate&amp;stack=cms&amp;SITE_LOGO=https://piratesocial.org/assets/logo.svg" target="_blank" rel="nofollow">
-Setup Account and Create YOUR Website
+Setup Account
 </a>
 <br />
 </section>
