@@ -7,9 +7,9 @@ import styled from "styled-components"
 import Layout from "../components/siteLayout"
 import { Helmet } from "react-helmet"
 import Intro from "../../static/assets/textual.svg"
-import Intro2 from "../../static/assets/install-intro.svg"
+// import Intro2 from "../../static/assets/install-intro.svg"
 import Intro3 from "../../static/assets/intro-github.svg"
-import ContactForm from "../components/Contact-inc"
+// import ContactForm from "../components/Contact-inc"
 // import useNetlifyIdentity from '../components/useNetlifyIdentity';
 const CustomBox = styled.div`
 
@@ -41,17 +41,17 @@ function Pirate() {
 <div className="scroll-container">
 
 
-{/* <div style={{display:'grid', justifyContent:'start', alignItems:'start', position:'relative', left:'', top:'', cursor:''}}> */}
+
   
 <Intro style={{height:'100vh', width:'100vw', position:'fixed', zIndex:'-1', top:'', objectFit:'cover',}} />
 
-<section style={{height:''}}>
+{/* <section style={{height:''}}>
 <Intro2 style={{height:'100vh', width:'100vw', position:'relative', zIndex:'1', top:'', objectFit:'cover',}} />
-  </section>
-  {/* </div> */}
+  </section> */}
 
 
-<section style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
+
+{/* <section style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
  alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
   color:'#fff',
   fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
@@ -59,15 +59,62 @@ function Pirate() {
   textAlign:'center'
 }}>
 
-<h3>STEP ONE (1 of 2)</h3>
+  STEP ONE:
 
-{/* <ContactForm /> */}
 <Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/contact">Tell us about yourself</Link>
+</section> */}
+
+
+
+<section id="great" style={{height:''}}>
+<Intro3 style={{height:'100vh', width:'100vw', position:'relative', zIndex:'1', top:'', objectFit:'cover',}} />
+  </section>
+
+
+{/* <section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
+ alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
+  color:'#fff',
+  fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
+  textShadow:'0 2px 7px #000'
+}}>
+
+<Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/disclaimer">Do Not Sell My Personal Information</Link>
+
+
+</section> */}
+
+
+
+
+
+
+
+<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 4%', position:'relative',
+ alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
+  color:'#fff',
+  fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
+  textShadow:'0 2px 7px #000',
+  textAlign:'center'
+}}>
+  <h3>STEP TWO (2 of 2)</h3>
+  <br />Setup Account and Create YOUR Website<br />
+
+<ul className="bulletlist">
+  <li>You will need a valid email address to create your GitHub</li>
+  <li>Everything is completely FREE and only take 3-4 minutes</li>
+</ul>
+<br />
+
+Simply follow the prompts and ignore the scary jargon
+<br />
+<br />
+<strong>Don't worry - we handle all the hard stuff for you!</strong>
+<br />
+<a style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} class="button" href="https://app.netlify.com/start/deploy?repository=https://github.com/twilightscapes/pirate&amp;stack=cms&amp;SITE_LOGO=https://piratesocial.org/assets/logo.svg" target="_blank" rel="nofollow">
+Setup Account and Create YOUR Website
+</a>
+<br />
 </section>
-
-
-
-
 
 
 

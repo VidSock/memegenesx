@@ -961,7 +961,7 @@ You control your timeline (and everything else), not some billionaire appeasing 
 
 
 
-  <div id="" className="flexbutt" style={{display:'flex', gap:'10px', justifyContent:'space-around', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
+<div id="" className="flexbutt" style={{display:'flex', gap:'10px', justifyContent:'space-around', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
 
 
         
@@ -1046,7 +1046,6 @@ INSTALL NOW!
    </div>
 
 
-   <Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/privacy#ccpa">Do Not Sell My Personal Information</Link>
 
 </div>
 </div>

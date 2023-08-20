@@ -9,7 +9,7 @@ const Contact = class extends React.Component {
       <div className="wrapper" style={{padding:'0 10%', maxWidth:'900px', margin:'0 auto' }}>
       <form
         className="contact-form specialfont2"
-        action="/thanks"
+        action="/install#great"
         name="contact"
         method="POST"
         data-netlify="true"
