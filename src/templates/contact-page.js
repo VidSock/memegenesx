@@ -130,7 +130,7 @@ const handleSubmit = e => {
 
 <form
   className={`contact-form flexcheek1 ${submitted ? "submitted" : ""}`}
-  // action="/thanks"
+  action="/install2"
   name="contact"
   method="POST"
   data-netlify="true"
