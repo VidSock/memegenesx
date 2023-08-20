@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useSiteMetadata from "../hooks/SiteMetadata"
 // import { StaticImage } from "gatsby-plugin-image"
 // import {Link} from "gatsby"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/siteLayout"
 import { Helmet } from "react-helmet"
@@ -11,7 +12,7 @@ import ContactForm from "../components/Contact-inc"
 // import useNetlifyIdentity from '../components/useNetlifyIdentity';
 const CustomBox = styled.div`
 
-
+header#menu{display: none !important;}
 `
 
 function Pirate() {
@@ -31,7 +32,7 @@ function Pirate() {
       </Helmet>
 
       {showNav ? (
-        <div className="spacer" style={{ height: "0px", border: "0px solid yellow" }}></div>
+        <div id="top" className="spacer" style={{ height: "0px", border: "0px solid yellow" }}></div>
       ) : (
         ""
       )}
@@ -63,7 +64,27 @@ function Pirate() {
 </section>
 
 
-<section id="feature" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
+
+
+<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
+ alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
+  color:'#fff',
+  fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
+  textShadow:'0 2px 7px #000'
+}}>
+
+<Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/disclaimer">Do Not Sell My Personal Information</Link>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
  alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
   color:'#fff',
   fontSize:'clamp(1rem, 1.8vw, 3.2rem)',

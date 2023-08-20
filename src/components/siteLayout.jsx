@@ -22,7 +22,7 @@ import { RiArrowUpFill } from "react-icons/ri"
 import GoBack from "../components/goBack"
 import { BiLeftArrow } from "react-icons/bi"
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-4'
-// import { AiOutlineClose } from "react-icons/ai"
+import { AiOutlineClose } from "react-icons/ai"
 import { BiGridHorizontal } from "react-icons/bi"
 import { MdOutlineRectangle } from "react-icons/md"
 import Menu from "../components/menu"
@@ -211,15 +211,36 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
 <div id="top" name="pagetop"></div>
 
 
+
+{/* <ModalRoutingContext.Consumer>
+    {({ modal, closeTo }) => (
+      <div style={{overflow:''}}>
+        {modal ? (
+          <>
+          <div style={{position:'fixed', top:'0', right:'0', padding:'10px', fontSize:'40px', background:'#111 !important', opacity:'1 !important', zIndex:'2',  filter:' drop-shadow(0px 4px 3px #000)',}}>
+          <Link state={{noScroll: true }} to={closeTo} style={{color:'#fff'}}>
+            <AiOutlineClose />
+          </Link>
+          </div>
+          </>
+        ) : (
+""
+        )}
+
+      </div>
+    )}
+  </ModalRoutingContext.Consumer> */}
+
+  
+
 <ModalRoutingContext.Consumer >
 {({ modal, closeTo }) => (
 <>
   {modal ? (
-    <div style={{display:'', position:'fixed', top:'80px', right:'3%', padding:'0px', fontSize:'', opacity:'1 !important', zIndex:'105', filter:' drop-shadow(0px 4px 3px #000)', color:'#fff', border:'1px solid red !important'}}>
+    <div style={{display:'', position:'fixed', top:'50px', right:'3%', padding:'0px', fontSize:'', opacity:'1 !important', zIndex:'10',}}>
     <Link state={{noScroll: true }} to={closeTo} style={{fontSize:'',  textDecoration:'none', lineHeight:'', display:'flex', flexDirection:'column', color:'#fff', cursor:'pointer'}}>
     <button className="button" style={{display:'flex', justifyContent:'center'}}><span className="icon -left" style={{paddingRight:''}}><BiLeftArrow /></span> {" "}Go Back</button>
     </Link>
-   
     </div>
   ) : (
 ''
@@ -244,11 +265,14 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
 
 
 
-<div id="gobacker" style={{position:'fixed', top:'60px', right:'3vw', zIndex:'5'}}><GoBack /></div>
+{/* <div id="gobacker" style={{position:'fixed', top:'60px', right:'3vw', zIndex:'5'}}><GoBack /></div> */}
 
 
 
 {showNav ? (
+
+<header>
+
 <div id="menu" className="menu print panel1 header" style={{position:'fixed', width:'100vw', top:'0', zIndex:'10', maxHeight:'', overFlow:'', boxShadow:'0 0 2px rgba(0,0,0,.7)', padding:'0 2%', alignItems:'start', borderRadius:'0', display:'flex', justifyContent:'space-around', gap:'10px', color:'#fff',  borderBottom:'1px solid #222',}}>
 
 {loggedIn ? (
@@ -421,6 +445,7 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
       
 
             </div>
+            </header>
 
 ) : (
   ""
@@ -430,10 +455,10 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
 
 
 
-<header>
+
 {showNav2 ? (
 
-<>
+<header>
 
 <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
 <>{ /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }</>
@@ -570,8 +595,8 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
 
 </ul>
 </div>
-</>
 
+</header>
 
 ) : (
   ""
@@ -586,7 +611,7 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
 
 
 
-</header>
+
 
 
 

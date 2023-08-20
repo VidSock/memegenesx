@@ -961,16 +961,16 @@ You control your timeline (and everything else), not some billionaire appeasing 
 
 
 
-  <div id="" className="flexbutt" style={{display:'flex', gap:'10px', justifyContent:'space-between', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
+  <div id="" className="flexbutt" style={{display:'flex', gap:'10px', justifyContent:'space-around', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
 
 
         
 
-<div id="" className="flexcheek" style={{display:'flex', flexDirection:'column', gap:'', justifyContent:'start', alignItems:'',}}>
+<div id="" className="flexcheek" style={{display:'flex', flexDirection:'column', gap:'', justifyContent:'start', alignItems:'', width:'80vw'}}>
  
 
 
-<StaticImage src="../../static/assets/galleon-pirate.webp" alt="Default Image" style={{height:'auto', maxWidth:'300px', position:'relative', zIndex:'0', top:'', borderRadius:'8px', objectFit:'contain', margin:'0 auto 0 auto'}} />
+<StaticImage src="../../static/assets/galleon-pirate.webp" alt="Default Image" style={{height:'auto', maxWidth:'400px', position:'relative', zIndex:'0', top:'', borderRadius:'8px', objectFit:'contain', margin:'0 auto 0 auto'}} />
 
 
  <div className="" style={{ background: 'rgba(0,0,0,0.30)', padding:'1rem 2rem ',
@@ -1044,6 +1044,9 @@ INSTALL NOW!
    </div>
    
    </div>
+
+
+   <Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/privacy#ccpa">Do Not Sell My Personal Information</Link>
 
 </div>
 </div>
