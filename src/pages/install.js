@@ -44,7 +44,7 @@ function Pirate() {
 <Intro style={{height:'100vh', width:'100vw', position:'fixed', zIndex:'-1', top:'', objectFit:'cover',}} />
 
 <section style={{height:''}}>
-<Intro2 style={{height:'100vh', width:'100%', position:'relative', zIndex:'1', top:'', objectFit:'cover',}} />
+<Intro2 style={{height:'100vh', width:'100vw', position:'relative', zIndex:'1', top:'', objectFit:'cover',}} />
   </section>
   {/* </div> */}
 
