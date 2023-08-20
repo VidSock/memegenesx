@@ -970,7 +970,7 @@ You control your timeline (and everything else), not some billionaire appeasing 
  
 
 
-<StaticImage src="../../static/assets/galleon-pirate.webp" alt="Default Image" style={{height:'auto', maxWidth:'', position:'relative', zIndex:'0', top:'', borderRadius:'8px', objectFit:'contain', margin:'0 auto 0 auto'}} />
+<StaticImage src="../../static/assets/galleon-pirate.webp" alt="Default Image" style={{height:'auto', maxWidth:'300px', position:'relative', zIndex:'0', top:'', borderRadius:'8px', objectFit:'contain', margin:'0 auto 0 auto'}} />
 
 
  <div className="" style={{ background: 'rgba(0,0,0,0.30)', padding:'1rem 2rem ',

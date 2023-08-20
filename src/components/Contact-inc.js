@@ -18,7 +18,7 @@ const Contact = class extends React.Component {
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
-            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="name" placeholder="Your Name" required />
           </label>
         </p>
         <p>
@@ -26,14 +26,14 @@ const Contact = class extends React.Component {
             <input type="email" name="email" placeholder="your@email.com" required />
           </label>
         </p>
-        <p>
+        {/* <p>
           <label>
             <input type="text" name="subject" placeholder="Subject" required />
           </label>
-        </p>
+        </p> */}
         <p>
           <label>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+            <textarea name="message" placeholder="Your Bio" required></textarea>
           </label>
         </p>
 
@@ -41,8 +41,8 @@ const Contact = class extends React.Component {
    
 <div style={{display:'flex', justifyContent:'space-around', alignItems:'center',}}>
 
-                  <label htmlFor="attachment1" style={{padding: '0', color: 'inherit', textShadow:'1px 1px 0 #555', display:'flex', width:'100%', fontSize:'90%', gap:'15px', justifyContent:'center', alignItems:'center'}}>
-                  
+                  <label htmlFor="attachment1" style={{padding: '0', color: 'inherit', textShadow:'1px 1px 0 #555', display:'flex', width:'100%', fontSize:'90%', gap:'5px', flexDirection:'column', justifyContent:'center', alignItems:''}}>
+                  Upload Profile Photo
                   <input
                       className="file-input hidden"
                       type="file"
@@ -50,17 +50,17 @@ const Contact = class extends React.Component {
                       name="attachment1"
                       // onChange={this.handleAttachment}
                     />
-                    ZIP files preferred
                     </label>
 
+          
+          </div>
           <button
             className="button specialfont1"
             type="submit"
-            style={{width:'50%'}}
+            style={{width:'90%'}}
           >
-            Send Message{" "}
+            Continue{" › › ›"}
           </button>
-          </div>
       </form>
     </div>
     )
