@@ -61,8 +61,8 @@ function Pirate() {
 
 <h3>STEP ONE (1 of 2)</h3>
 
-{/* <ContactForm /> */}
-<Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/contact">Tell us about yourself</Link>
+<ContactForm />
+{/* <Link style={{display:'grid', placeContent:'center', margin:'0 auto 0 auto'}} state={{modal: true}} className="button" to="/contact">Tell us about yourself</Link> */}
 </section>
 
 
