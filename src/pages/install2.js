@@ -89,7 +89,7 @@ function Pirate() {
 
 
 
-<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'20vh auto 0 auto', padding:'0 4%', position:'relative',
+<section id="" order="1" name="feature" className="print scroll-area" style={{ display:'', height:'', maxHeight:'', margin:'0 auto 0 auto', padding:'0 4%', position:'relative',
  alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
   color:'#fff',
   fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
@@ -114,6 +114,8 @@ Simply follow the prompts and ignore the scary jargon
 Setup Account
 </a>
 <br />
+
+{/* <Link state={{modal: true}}  to="/contact/" className="navbar-item  button fire" style={{margin:'', textDecoration:'none'}}>Contact Me</Link> */}
 </section>
 
 

@@ -17,8 +17,24 @@ const PostCard = ({ data, index }) => {
   // ...
 
   return (
+
+    
+
     <div className="post-card1" key={data.frontmatter.slug}>
       <Link className="postlink" to={data.frontmatter.slug}>
+        
+
+      {data.frontmatter.nftlink ? (
+
+<iframe loading="lazy" id="" style={{width:'80%', height:'80vh', margin:'0 auto'}} title="iFrame" className="iframe boom" width="980" height="550" src={data.frontmatter.nftlink} frameBorder="0" allowFullScreen></iframe>
+
+
+) : (
+
+""
+
+)}
+
         {data.frontmatter.featuredImage ? (
           <GatsbyImage
             image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
@@ -37,6 +53,7 @@ const PostCard = ({ data, index }) => {
             style={{ position: 'relative', zIndex: '' }}
           />
         )}
+
 
 
 
@@ -84,6 +101,9 @@ const PostCard = ({ data, index }) => {
             ""
           )}
     </div>
+
+
+
 
   )
 }

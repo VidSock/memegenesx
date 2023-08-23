@@ -76,6 +76,7 @@ const HomePage = ({ data }) => {
     const { showSkills } = useSiteMetadata()
     const { showCover } = useSiteMetadata()
     const { showfooter } = useSiteMetadata()
+    
 
 const CustomControls = frontmatter.youtube.customcontrols
 const Suggestion1 = frontmatter.youtube.youtubersuggestion1
@@ -680,7 +681,7 @@ style={{height:'auto', width:'100vw', maxHeight:'', position:'relative', zIndex:
 
 {/* show Info */}
 {showInfo ? (
-<section className="scroll-area" id="info" order="2" name="info" style={{ display:'', height:'100%', minHeight:'', position:'relative', zIndex:'0', overflow:'visible', margin:'0 auto 20vh auto', padding:'0 0 10vh 0', background:'var(--theme-ui-colors-background)', color:'var(--theme-ui-colors-text)', maxWidth:'95%', borderRadius:'8px', }}>
+<section className="scroll-area" id="info" order="2" name="info" style={{ display:'', height:'100%', minHeight:'', position:'relative', zIndex:'0', overflow:'visible', margin:'0 auto 20vh auto', padding:'12vh 0 10vh 0', background:'var(--theme-ui-colors-background)', color:'var(--theme-ui-colors-text)', maxWidth:'95%', borderRadius:'8px', }}>
   <article style={{ margin:'0 0 0 0'}}>
 
   <div className="" style={{maxHeight:'100vh', width:'100vw', height:'', overflow:'visible',position:'absolute', top:'', zIndex:'-1',}}>
@@ -755,7 +756,7 @@ style={{height:'auto', width:'100vw', maxHeight:'', position:'relative', zIndex:
   <br />
   {/* <Link to={frontmatter.cta.ctaLink} className="button print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', }}>{frontmatter.cta.ctaText}</Link> */}
 Join Now!
-    <AnchorLink to='#captain' className="button fire print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', }}>Become a PIRATE!</AnchorLink>
+    <AnchorLink to='#captain' className="button actionJackson print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', color:'#fff' }}>Become a PIRATE!</AnchorLink>
   <br />
   {/* <SignUp /> */}
 
@@ -959,9 +960,9 @@ You control your timeline (and everything else), not some billionaire appeasing 
  
 
 
+{/* INSTALL SECTION */}
 
-
-<div id="" className="flexbutt" style={{display:'flex', gap:'10px', justifyContent:'space-around', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
+<div id="" className="flexbutt" style={{display:'none', gap:'10px', justifyContent:'space-around', alignItems:'center', justifyContent:'center', color:'', padding:'0 1%'}}>
 
 
         

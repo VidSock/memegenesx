@@ -51,7 +51,7 @@ function Pirate() {
   {/* </div> */}
 
 
-<section style={{ display:'', height:'', maxHeight:'', margin:'10vh auto 10vh auto', padding:'0 0 0 0', position:'relative',
+<section style={{ display:'', height:'', maxHeight:'', margin:'0 auto', padding:'0 0 0 0', position:'relative',
  alignContent:'center', display:'grid', textAlign:'left', placeContent:'center', verticalAlign:'center',
   color:'#fff',
   fontSize:'clamp(1rem, 1.8vw, 3.2rem)',
