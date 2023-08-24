@@ -1,7 +1,7 @@
 backend:
   # name: test-repo
   name: git-gateway
-  branch: main
+  branch: decap
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
