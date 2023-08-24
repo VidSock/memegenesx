@@ -92,7 +92,7 @@ const NewsletterPage = () => (
 
 
             <div style={{padding: '0px 3%', margin:'5px 0 10px 0', textAlign: 'center', color:'#fff', fontSize:'70%'}}>
-            <Link to="/privacy/" className="" style={{textAlign: 'center', padding: '15px',  textDecoration: 'underline', border:'0px solid yellow'}}>Privacy Policy (NO SPAM!)</Link>
+            <Link state={{modal: true}} to="/privacy/" className="" style={{textAlign: 'center', padding: '15px',  textDecoration: 'underline', border:'0px solid yellow'}}>Privacy Policy (NO SPAM!)</Link>
            
             </div>
 </form>

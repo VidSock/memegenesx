@@ -23,7 +23,7 @@ import { AiOutlineAudioMuted } from 'react-icons/ai';
 // import TwilightLogo from "../../static/assets/logo.svg"
 // import Install from "../components/install-footer"
 // import Faqs from "../components/equipment-list"
-// import SignUp from "../components/newssign"
+import SignUp from "../components/newssign"
 // import SearchSlider from "../components/search1"
 // import LHScores from "../../static/assets/logo.svg"
 
@@ -756,9 +756,9 @@ style={{height:'auto', width:'100vw', maxHeight:'', position:'relative', zIndex:
   <br />
   {/* <Link to={frontmatter.cta.ctaLink} className="button print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', }}>{frontmatter.cta.ctaText}</Link> */}
 Early Alpha (testing only)
-    <AnchorLink to='/install' className="button actionJackson print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', color:'#fff' }}>Install Now</AnchorLink>
+    {/* <AnchorLink to='/install' className="button actionJackson print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', color:'#fff' }}>Install Now</AnchorLink> */}
   <br />
-  {/* <SignUp /> */}
+  <SignUp />
 
   <br />
   {showCover ? (
