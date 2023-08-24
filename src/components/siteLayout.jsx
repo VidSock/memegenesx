@@ -19,10 +19,10 @@ import SearchIcon from "../../src/img/search"
 // import SearchForm from "./searchbox"
 import useSiteMetadata from "../hooks/SiteMetadata"
 import { RiArrowUpFill } from "react-icons/ri"
-import GoBack from "../components/goBack"
+// import GoBack from "../components/goBack"
 import { BiLeftArrow } from "react-icons/bi"
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-4'
-import { AiOutlineClose } from "react-icons/ai"
+// import { AiOutlineClose } from "react-icons/ai"
 import { BiGridHorizontal } from "react-icons/bi"
 import { MdOutlineRectangle } from "react-icons/md"
 import Menu from "../components/menu"
@@ -81,15 +81,25 @@ const applyArchiveView = useCallback(() => {
       // document.body.classList.add("scrollable");
       // document.querySelector('#showPosts').style.height = 'auto';
       // window.scrollTo(0, 0);
-    } else if (archiveView === "swipe") {
+    } 
+    
+    if ( document.querySelector('body').classList.contains("homepage")) {
+      el.classList.remove("horizontal-scroll", "panels");
+      el.classList.add("grid-container");
+    }
+    
+    else if (archiveView === "swipe") {
       el.classList.remove("grid-container");
       el.classList.add("horizontal-scroll", "panels");
       // document.body.classList.remove("scrollable");
-
       document.querySelector('.contentpanel').style.transition = 'all .5s ease-in-out';
       // document.querySelector('#showPosts').style.height = '600px';
       window.scrollTo(0, 0);
     }
+
+
+
+
   });
   localStorage.setItem("archiveView", archiveView);
 }, [archiveView]);

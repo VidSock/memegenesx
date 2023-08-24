@@ -22,13 +22,11 @@ audioend: ""
 audiotitle: "Shoop"
 underlayImage: 
 profText:
-  <p>PIRATE is a decentralized social network with no central control or ownership. It's based on Open Source content distribution using RSS feeds and run on free individualy owned websites. </p>
+ <p>PIRATE is a social network with NO central control or ownership. It's based on leading Open-Source platforms and runs on individually owned websites. </p>
 
- <p>PIRATE leverages the power of free services to host your own web app that you control from any device, all for FREE! </p>
+ <p>PIRATE leverages the power of free services to host your own web app that you can control from any device, all for FREE! </p>
 
- <p>Easily edit your homepage, update your profile, and publish engaging content on YOUR OWN website/app with PIRATE, today!</p>
-
-# /assets/shipbg.webp
+ <p>Easily edit your homepage, update your profile, and publish engaging content on your OWN website/app. You're the Captain of your content!</p>
 
 addressText: "The Fleet Launches Soon!"
 portfolio:

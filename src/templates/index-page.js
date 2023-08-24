@@ -755,8 +755,8 @@ style={{height:'auto', width:'100vw', maxHeight:'', position:'relative', zIndex:
   )}
   <br />
   {/* <Link to={frontmatter.cta.ctaLink} className="button print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', }}>{frontmatter.cta.ctaText}</Link> */}
-Join Now!
-    <AnchorLink to='#captain' className="button actionJackson print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', color:'#fff' }}>Become a PIRATE!</AnchorLink>
+Early Alpha (testing only)
+    <AnchorLink to='/install' className="button actionJackson print" style={{ display: 'flex', justifyContent: 'center', padding:'1vh .5vw', maxWidth:'250px', color:'#fff' }}>Install Now</AnchorLink>
   <br />
   {/* <SignUp /> */}
 
@@ -1276,7 +1276,7 @@ query HomeQuery($id: String!) {
   posts: allMarkdownRemark(
     sort: [{frontmatter: {spotlight: ASC}}, {frontmatter: {date: DESC}}]
     filter: {frontmatter: {template: {eq: "blog-post"}}}
-    limit: 30
+    limit: 6
   ) {
     edges {
       node {

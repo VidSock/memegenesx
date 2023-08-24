@@ -21,7 +21,7 @@ showPageNav: true
 slug: /test7
 audiostart: null
 template: blog-post
-title: Weblink
+title: Coast
 categories: news
 date: 2023-02-10 10:43
 description: A test blog post to show a blog post.
@@ -35,7 +35,7 @@ underlayImage: null
 bumpertext: null
 svgImage: null
 category: news
-nftlink: "https://coastweb.site"
+nftlink: "https://toddlambert.com"
 isnftforsale: false
 ---
 
