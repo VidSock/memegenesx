@@ -33,7 +33,7 @@
     "image": "",
     "description": "PIRATE - social media by the people for the people",
     "icon512": "/assets/logo.svg",
-    "showSwipe": false,
+    "showSwipe": true,
     "showSkills": false
   },
   "ga": "UA-89654528-2",

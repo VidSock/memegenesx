@@ -41,12 +41,12 @@ tags:
 featuredImage: /assets/CW-promo1.webp
 underlayImage: null
 bumpertext: null
-svgImage: null
+svgImage: /assets/install-intro.svg
 maratingtx1: null
 liarliar: false
 svgzindex: null
 maratingtx2: null
-contentinvideo: false
+contentinvideo: true
 maratingtx3: null
 isnftforsale: false
 maratingtx4: null
