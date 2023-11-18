@@ -362,7 +362,7 @@ module.exports = {
         headers: {
           '/*': [
             'X-Frame-Options: ALLOW-FROM https://memegenes.com/',
-            'X-Frame-Options: ALLOW-FROM https://youtube.com/'
+            'Content-Security-Policy: frame-ancestors \'self\' https://memegenes.com/ https://www.youtube.com/',
           ],
         },
         mergeSecurityHeaders: false,
