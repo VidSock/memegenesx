@@ -109,9 +109,9 @@ collections:
 
       - { label: "SEO Description", name: "description", widget: "text" }
       - { label: "Make Comments Available?", name: "comments", widget: "boolean", default: false, required: false }
-      - { label: "Make Post Shareable?", name: "shareable", widget: "boolean", default: true, required: true }
+      - { label: "Make Post Shareable?", name: "shareable", widget: "boolean", default: true, required: false }
       - { label: "Make Feature Image Zoom", name: "showZoom", widget: "boolean", default: true, required: false }
-      - { label: "Turn on Page Level Nav", name: "showPageNav", widget: "boolean", default: false, required: false }
+      - { label: "Turn on Page Level Nav", name: "showPageNav", widget: "boolean", default: true, required: false }
 
 
 
