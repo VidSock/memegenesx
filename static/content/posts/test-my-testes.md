@@ -8,7 +8,7 @@ description: test my balls
 comments: false
 shareable: true
 showZoom: true
-showPageNav: "false"
+showPageNav: true
 youtube:
   youtubemute: false
   youtubeautostart: false
