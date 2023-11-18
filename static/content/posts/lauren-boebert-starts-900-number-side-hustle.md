@@ -7,6 +7,7 @@ description: Lauren Boebert starts 900 number side hustle
 category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - trash
   - boeber

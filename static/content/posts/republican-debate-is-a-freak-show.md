@@ -7,6 +7,7 @@ description: Republican debate - is a freak show
 category: memes
 shareable: true
 showZoom: false
+showPageNav: true
 youtube:
   youtubemute: false
   youtubeautostart: false

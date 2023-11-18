@@ -7,6 +7,7 @@ description: Senator Joe Manchin finally got a yacht big enough, announces his r
 category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - joemanchin
 youtube:

@@ -7,6 +7,7 @@ description: Trump's Reign of Fire
 category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 youtube:
   youtubemute: false
   youtubeautostart: false

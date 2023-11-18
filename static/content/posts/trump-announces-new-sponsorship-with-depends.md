@@ -7,6 +7,7 @@ description: Trump announces new sponsorship with Depends
 category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - trump
 youtube:

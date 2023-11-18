@@ -7,6 +7,7 @@ description: Have you heard about Ted Cruz's Podcast?
 category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - podcast
   - tedcruz

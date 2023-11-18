@@ -16,6 +16,7 @@ youtube:
   clicktoplay: false
 featuredImage: /assets/judge-juicebox.webp
 comments: false
+showPageNav: true
 tags:
   - tedcruz
 ---
