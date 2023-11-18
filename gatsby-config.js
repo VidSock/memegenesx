@@ -18,17 +18,6 @@ const settings = require("./static/data/site.json")
 module.exports = {
   flags: {},
   siteMetadata: settings.meta,
-  headers: [
-    {
-      source: `/todd`,
-      headers: [
-        {
-          key: `Access-Control-Allow-Origin`,
-          value: `*`,
-        }
-      ]
-    }
-  ],
   plugins: [
     // {
     //   resolve: "gatsby-source-shopify",
@@ -367,6 +356,15 @@ module.exports = {
       },
     },
 
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': ['X-Frame-Options: ALLOW-FROM https://memegenes.com/'],
+        },
+        mergeSecurityHeaders: false,
+      },
+    },
     
 
     // {
