@@ -359,6 +359,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-netlify",
       options: {
+      mergeSecurityHeaders: false,
       headers: {
           "/*": [
             "X-XSS-Protection: 1; mode=block",

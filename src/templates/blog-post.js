@@ -243,12 +243,12 @@ const hasYoutubeFrontmatter = frontmatter.youtube.youtuber
 // const iframeUrl = frontmatter.youtube.youtuber
 
 
-
+const urlTo = "https://www.youtube.com/embed/" + frontmatter.youtube.youtuber
 
 let iframeFiltered;
 if (Suggestion1) {
   iframeFiltered = [
-    frontmatter.youtube.youtuber,
+    urlTo,
     frontmatter.youtube.youtubersuggestion1,
     frontmatter.youtube.youtubersuggestion2,
     frontmatter.youtube.youtubersuggestion3,
