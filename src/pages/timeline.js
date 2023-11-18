@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import AuthenticatedTimeline from "../components/AuthenticatedTimeline";
 import { useStaticQuery, graphql } from "gatsby";
-import Layout from "../components/siteLayout";
+import Layout from "../components/socialLayout";
 
 const TimeLine = () => {
   const data = useStaticQuery(graphql`

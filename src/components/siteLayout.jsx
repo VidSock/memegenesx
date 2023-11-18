@@ -385,14 +385,14 @@ const fontUrl = "https://fonts.googleapis.com/css?family=" + font1.replace(/\s+/
       
     )} */}
 
-{loggedIn ? (
+{/* {loggedIn ? (
       <MenuSocial />
                 ) : (
                   <Menu />
                   
-                )}
+                )} */}
 
-
+<Menu />
 
 
 
