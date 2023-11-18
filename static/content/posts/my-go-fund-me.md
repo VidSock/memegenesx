@@ -71,7 +71,7 @@ tags:
   "I'm starting to think Trump stiffed me and I don't know what to do" He still owes me over seven thousand dollars for pillows, as he claims he was told by Trump to "order lots and lots of pillows as Mar-A-Lago patrons would love them".
   </marquee> -->
 
-<object class="" style="height:auto; border:0px solid red;" class="" id="svg1" data="/assets/MyPillowGuy-4.svg" type="image/svg+xml" alt="animated content" title="animated content" ></object>
+<object class="" style="height:auto; border:0px solid red;" class="" id="svg1" data="https://memegenes.com/assets/MyPillowGuy-4.svg" type="image/svg+xml" alt="animated content" title="animated content" ></object>
 </div>
 
 

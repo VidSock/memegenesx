@@ -3,7 +3,7 @@
   command = "gatsby build"
 
 [build.environment]
-  NODE_VERSION = "19"
+  NODE_VERSION = "18"
   NODE_OPTIONS = "--max_old_space_size=4096"
 
 
@@ -12,3 +12,10 @@
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+
+
+
+
+
+
