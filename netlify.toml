@@ -16,7 +16,7 @@
   for = "/*.svg"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    X-Frame-Options = "ALLOW-FROM https://memegenes.com"
+    X-Frame-Options = "ALLOW-FROM https://memegenes.com https://www.youtube.com"
 
 [[edge_functions]]
   function = "hello" 
