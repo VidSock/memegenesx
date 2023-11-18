@@ -7,7 +7,6 @@ description: MTG releases the cover of her upcoming book
 category: memes
 shareable: true
 showZoom: true
-showPageNav: true
 youtube:
   youtubemute: false
   youtubeautostart: false

@@ -7,7 +7,6 @@ description: Silence of the lambs - Trump sheep
 category: memes
 shareable: true
 showZoom: true
-showPageNav: true
 tags:
   - trump
 youtube:
