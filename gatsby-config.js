@@ -360,7 +360,10 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify',
       options: {
         headers: {
-          '/*': ['X-Frame-Options: ALLOW-FROM https://memegenes.com/'],
+          '/*': [
+            'X-Frame-Options: ALLOW-FROM https://memegenes.com/',
+            'X-Frame-Options: ALLOW-FROM https://youtube.com/'
+          ],
         },
         mergeSecurityHeaders: false,
       },
