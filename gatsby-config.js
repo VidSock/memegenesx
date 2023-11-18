@@ -13,9 +13,22 @@ const netlifyCmsPaths = {
 
 const settings = require("./static/data/site.json")
 
+
+
 module.exports = {
   flags: {},
   siteMetadata: settings.meta,
+  headers: [
+    {
+      source: `/todd`,
+      headers: [
+        {
+          key: `Access-Control-Allow-Origin`,
+          value: `*`,
+        }
+      ]
+    }
+  ],
   plugins: [
     // {
     //   resolve: "gatsby-source-shopify",
@@ -27,6 +40,8 @@ module.exports = {
     //     salesChannel:"Secure3",
     //   },
     // },
+
+    
 
 {
     resolve: `gatsby-transformer-remark`,
