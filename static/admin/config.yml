@@ -13,7 +13,7 @@ backend:
 #local_backend: true # run npx netlify-cms-proxy-server for local testing
 logo_url: ../assets/logo.svg
 media_folder: "/static/assets"
-public_folder: "/static/"
+public_folder: "/assets"
 # publish_mode: editorial_workflow
 # site_url: ""
 # display_url: ""
@@ -48,7 +48,7 @@ collections:
     label_singular: "Site Post" # Used in the UI, ie: "New Post"
     description: >
       Create stuff for you website here.
-    folder: "/content/posts"
+    folder: "/static/content/posts"
     slug: "{{slug}}"
     summary: "{{title}} — {{year}}/{{month}}/{{day}}"
     create: true # Allow users to create new documents in this collection
