@@ -1,16 +1,12 @@
 {
   "menuItems": [
     {
-      "menutitle": "What is Pirate?",
-      "url": "/about"
+      "menutitle": "Keyword",
+      "url": "/tags"
     },
     {
-      "menutitle": "Examples",
-      "url": "/examples"
-    },
-    {
-      "menutitle": "The Project",
-      "url": "/project"
+      "menutitle": "Archive",
+      "url": "/archive"
     }
   ]
 }

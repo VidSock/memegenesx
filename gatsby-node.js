@@ -162,13 +162,15 @@ category.forEach((category) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = node.frontmatter.slug || createFilePath({ node, getNode, basePath: `pages` })
     const slugWithoutPrefix = slug.replace(/^\/posts/, '')
     createNodeField({
       node,
       name: `slug`,
       value: slugWithoutPrefix,
     })
+
+    
 
     // Add document type field
     createNodeField({
