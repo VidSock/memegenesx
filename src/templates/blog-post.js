@@ -1295,8 +1295,8 @@ zindex:'1'
   <div className="article-header" style={{textAlign:'center', paddingTop:'1rem', height:'auto', color:'', borderRadius:'12px'}}>
     
             <h1 className="headline panel" style={{color:'#ddd', borderRadius:''}}>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
-            Posted: <TimeAgo date={frontmatter.date} style={{color:''}} />
+            <time sx={{color: ""}}>{frontmatter.date}</time>
+            Posted: <TimeAgo date={frontmatter.date} style={{color:'inherit'}} />
            
            {/* <Link to={`/category/${frontmatter.category}`}>Category:{frontmatter.category}</Link>
 
@@ -1319,7 +1319,7 @@ zindex:'1'
               <header style={{ height:'', display:'grid', placeContent:'center'}}>
                 <div className="article-header panel" style={{textAlign:'center', paddingTop:'1rem', height:'auto', color:'', borderRadius:'', marginTop:'0'}}>
             <h1 className="headline" style={{color:'#ddd', borderRadius:'12px'}}>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            <time sx={{color: ""}}>{frontmatter.date}</time>
            Posted: <TimeAgo date={frontmatter.date} style={{color:''}} />
            
 
@@ -1376,7 +1376,7 @@ zindex:'1'
 {showDates ? (
   <div>
     Posted:{" "}
-    <time title={frontmatter.date} sx={{ color: "muted" }}>
+    <time title={frontmatter.date} sx={{ color: "" }}>
       <TimeAgo date={frontmatter.date} style={{ color: "" }} />
     </time>
   </div>
