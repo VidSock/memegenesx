@@ -1,13 +1,13 @@
 ---
 template: contact-page
 slug: /contact
-title: Contact
 redirect: false
 contactname: true
 contactphone: false
-contactupload: true
+contactupload: false
 scrollable: false
 uploadtext: Upload Profile Photo     (JPG preferred)
 excludeFromRSS: true
+title: Contact
 ---
 &nbsp;
