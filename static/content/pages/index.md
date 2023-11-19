@@ -1,83 +1,92 @@
 ---
-marating1: x
-marating2: x
-tagline: Memes are life
-featuredImage: /assets/ShawshankLoader.svg
-secondaryImage: /assets/default-user.webp
-underlayImage: null
-addressText: The Fleet Launches Soon!
-audiotitle: Shoop
-marating3: x
-marating4: x
+slug: /
+tagline:  Welcome to PIRATE, Matey!
+featuredImage: /assets/pirate-propaganda.webp
 youtube:
-  youtubersuggestion3: ""
+  youtuber: 
   youtuber2: ""
-  youtubeloop: true
-  customcontrols: false
-  youtuber: null
   youtubeautostart: false
-  youtubeshoworiginal: false
-  clicktoplay: false
-  youtubeend: ""
-  youtubecontrols: false
   youtubemute: false
+  youtubecontrols: false
+  clicktoplay: false
+  customcontrols: false
+  youtubestart: ""
+  youtubeend: ""
+  youtubeloop: true
+  youtubeshoworiginal: false
   youtubersuggestion1: ""
   youtubersuggestion2: ""
-  youtubestart: ""
+  youtubersuggestion3: ""
+audiostart: "0"
 audioend: ""
-profText: >-
-  <p>PIRATE is a social network with NO central control or ownership. It's based
-  on leading Open-Source platforms and runs on individually owned websites. </p>
+audiotitle: "Shoop"
+underlayImage: 
+profText:
+ <p>PIRATE is a social network with NO central control or ownership. It's based on leading Open-Source platforms and runs on individually owned websites. </p>
 
-  <p>PIRATE leverages the power of free services to host your own web app that you can control from any device, all for FREE! </p>
+ <p>PIRATE leverages the power of free services to host your own web app that you can control from any device, all for FREE! </p>
 
-  <p>Easily edit your homepage, update your profile, and publish engaging content on your OWN website/app. You're the Captain of your content!</p>
-scrollable: false
+ <p>Easily edit your homepage, update your profile, and publish engaging content on your OWN website/app. You're the Captain of your content!</p>
+
+addressText: "The Fleet Launches Soon!"
 portfolio:
   openText: ""
   closeText: ""
-viewerwarning: x
-nftdrop: x
-slug: /
-audiostart: "0"
-skillsText: >-
-  <dl> <dt> <h2>Overall Skills</h2><div>100%</div> </dt> <dd class="percentage
-  percentage-90"><span class="text">Organization</span> <span
-  class="percent">90%</span></dd> <dd class="percentage percentage-75"><span
-  class="text">Problem Solving</span> <span class="percent">75%</span></dd> <dd
-  class="percentage percentage-85"><span class="text">Outgoing</span> <span
-  class="percent">85%</span></dd> <dd class="percentage percentage-75"><span
-  class="text">Javascript</span> <span class="percent">75%</span></dd> <dd
-  class="percentage percentage-80"><span class="text">UI Design</span> <span
-  class="percent">80%</span></dd> <dd class="percentage percentage-85"><span
-  class="text">UX Design</span> <span class="percent">85%</span></dd> </dl>
+addressText2: ""
+skillsTitle: ""
+skillsText: 
+  <dl>
+  <dt>
+  <h2>Overall Skills</h2><div>100%</div>
+  </dt>
+  <dd class="percentage percentage-90"><span class="text">Organization</span> <span class="percent">90%</span></dd>
+  <dd class="percentage percentage-75"><span class="text">Problem Solving</span> <span class="percent">75%</span></dd>
+  <dd class="percentage percentage-85"><span class="text">Outgoing</span> <span class="percent">85%</span></dd>
+  <dd class="percentage percentage-75"><span class="text">Javascript</span> <span class="percent">75%</span></dd>
+  <dd class="percentage percentage-80"><span class="text">UI Design</span> <span class="percent">80%</span></dd>
+  <dd class="percentage percentage-85"><span class="text">UX Design</span> <span class="percent">85%</span></dd>
+  </dl>
 
-  <dl> <dt> <h2>Detailed Skills</h2><div>100%</div> </dt> <dd class="percentage percentage-90"><span class="text">Word Perfect</span> <span class="percent">90%</span></dd> <dd class="percentage percentage-85"><span class="text">MS Paint</span> <span class="percent">85%</span></dd> <dd class="percentage percentage-75"><span class="text">Photoshop</span> <span class="percent">75%</span></dd> <dd class="percentage percentage-99"><span class="text">Hacking</span> <span class="percent">99%</span></dd> </dl>
-bumpertext: Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha
-addressText2: " Address text2"
+  <dl>
+  <dt>
+  <h2>Detailed Skills</h2><div>100%</div>
+  </dt>
+  <dd class="percentage percentage-90"><span class="text">Word Perfect</span> <span class="percent">90%</span></dd>
+  <dd class="percentage percentage-85"><span class="text">MS Paint</span> <span class="percent">85%</span></dd>
+  <dd class="percentage percentage-75"><span class="text">Photoshop</span> <span class="percent">75%</span></dd>
+  <dd class="percentage percentage-99"><span class="text">Hacking</span> <span class="percent">99%</span></dd>
+  </dl>
 cta:
   ctaText: Reserve Your Galleon
   ctaLink: /contact
-marate: x
-pagePW: ""
-template: index-page
-title: Do these memes make my butt look fat?
-svgImage: null
-skillsTitle: My Skills
-postLimit: "4"
-maratingtx1: x
+svgImage: 
+secondaryImage: /assets/default-user.webp
+title: social media by the people for the people
+sharethis: false
 liarliar: false
+bumpertext: "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+marate: x
+viewerwarning: x
+marating1: x
+marating2: x
+marating3: x
+marating4: x
+maratingtx1: x
+maratingtx2: x
+maratingtx3: x
+maratingtx4: x
+template: index-page
 description: PIRATE - social media owned by the people
 svgzindex: x
-maratingtx2: x
 profTitle: Hoist Your Flag!
 coverletter:
   coverText: About PIRATE
   coverLink: /about
-sharethis: false
+scrollable: false
 contentinvideo: false
-maratingtx3: x
-maratingtx4: x
+nftdrop: x
+postLimit: "4"
+pagePW: ""
 ---
 
 <div style="">
