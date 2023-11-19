@@ -1,12 +1,13 @@
 ---
 template: blog-post
+category: memes
 title: Have you heard about Ted Cruz's Podcast?
 slug: /ted-cruz-podcast
 date: 2023-11-10 07:05
 description: Have you heard about Ted Cruz's Podcast?
-category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - podcast
   - tedcruz
