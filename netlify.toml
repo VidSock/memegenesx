@@ -12,6 +12,12 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    X-Frame-Options = "ALLOW-FROM https://memegenes.com"
+
 [[edge_functions]]
   function = "hello" 
   path = "/hello"
