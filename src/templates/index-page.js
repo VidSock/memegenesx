@@ -795,7 +795,7 @@ Early Alpha (testing only)
 
 {/* show posts */}
 {showPosts ? (
-  <section id="showPosts" order="3" className="scroll-area" style={{display:'block', height:'',  minHeight:'', position:'relative', zIndex:'0', overflow:'visible', margin:'0 auto', padding:'0 0 0 0', border:'0px solid blue'}}>
+  <section id="showPosts" order="3" className="scroll-area" style={{display:'block', height:'',  minHeight:'', position:'relative', zIndex:'0', overflow:'visible', margin:'0 auto', padding:'4vh 0 0 0', border:'0px solid blue'}}>
 <div className="contentpanel grid-container">
 
 <div className="sliderSpacer" style={{height:'', paddingTop:'', display:''}}></div>
