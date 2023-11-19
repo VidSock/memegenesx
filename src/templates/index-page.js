@@ -580,7 +580,7 @@ Click to play
     <Layout>
 {frontmatter.scrollable ? (
 <Helmet>
-  <body id="body" className="homepage scroll"  />
+  <body id="body" className="homepage"  />
 </Helmet>
 ) : (
 <Helmet>

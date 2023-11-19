@@ -49,7 +49,7 @@ const BlogList = ({ data, pageContext }) => {
         ""
       )}
 
-      <div style={{maxHeight:'100vh'}}>
+      <div className="scroll-container" style={{maxHeight:'100vh', padding:'4vh 0 0 0'}}>
 
 
         {/* <h1 style={{textAlign:'center'}}>Archive</h1> */}

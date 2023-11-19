@@ -289,12 +289,12 @@ collections:
           # - { label: "Turn Page Scroll On", name: "scrollable", widget: "boolean", default: "true", hint: "Allows page to be scrolled vertically", required: false }
 
           - { label: "Address Text", name: "addressText", widget: "string", default: "" }
-          - { label: "Address Text2", name: "addressText2", widget: "string", default: "" }
+          - { label: "Address Text2", name: "addressText2", widget: "string", default: "", required: false }
 
           - { label: "Profile Title", name: "profTitle", widget: "string", default: "" }
           - { label: "Profile Text", name: "profText", widget: "string", default: "" }
 
-          - { label: "Skills Title", name: "skillsTitle", widget: "string", default: "" }
+          - { label: "Skills Title", name: "skillsTitle", widget: "string", default: "", required: false }
           - { label: "Skills Text", name: "skillsText", widget: "string", default: "" }
           
 
