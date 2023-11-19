@@ -50,7 +50,7 @@ tags:
  - fake
  - fraud
  - worst
-spotlight: true
+
 ---
 
 ## You make the decision!

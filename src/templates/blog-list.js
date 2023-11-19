@@ -138,18 +138,46 @@ Play Multimedia
           )
         })}
 
-{showShowMore && (
+{/* {showShowMore && (
           <button onClick={() => navigate(`/archive/${currentPage + 1}`)}>
             Show more
           </button>
         )}
+
         {showEndOfResults && (
           <div>End of results</div>
         )}
+
         {!showShowMore && !showEndOfResults && (
           <div>{posts.length} posts</div>
-        )}
+        )} */}
+
+<div style={{ background:'rgba(0, 0, 0, 0.7)', width:'90vw', margin:'0 auto', padding:'.2vh 2vw .2vh 2vw', textAlign:'center', color:'#fff', display:'flex', justifyContent:'center'}}>
+  <button onClick={() => navigate(pageContext.currentPage > 2 ? `/archive/${pageContext.currentPage - 1}` : '/archive')} disabled={pageContext.currentPage === 1}>
+    Previous
+  </button>
+  {Array.from({ length: numPages }, (_, i) => {
+    const page = i + 1
+    const path = page === 1 ? "/archive" : `/archive/${page}`
+    return (
+      <Link
+        key={`pagination-link-${page}`}
+        to={path}
+        activeClassName="active"
+        style={{padding:'20px'}}
+      >
+        {page}
+      </Link>
+    )
+  })}
+  <button onClick={() => navigate(`/archive/${pageContext.currentPage + 1}`)} disabled={pageContext.currentPage === numPages}>
+    Next
+  </button>
+</div>
+
       </div>
+      
+
       
       </div>
 
@@ -157,10 +185,10 @@ Play Multimedia
 
 
 
-<div className="spacer66"></div>
+{/* <div className="spacer66"></div> */}
 
       {/* Render pagination links */}
-{/* <div style={{position:'fixed', bottom:'0', zIndex:'5', width:'100vw',  background:'rgba(0, 0, 0, 0.7)', padding:'.2vh 2vw .2vh 2vw', textAlign:'center', color:'#fff', display:'flex', justifyContent:'center'}}>
+{/* <div style={{ width:'100vw',  background:'rgba(0, 0, 0, 0.7)', padding:'.2vh 2vw .2vh 2vw', textAlign:'center', color:'#fff', display:'flex', justifyContent:'center'}}>
   <button onClick={() => navigate(pageContext.currentPage > 2 ? `/archive/${pageContext.currentPage - 1}` : '/archive')} disabled={pageContext.currentPage === 1}>
     Previous
   </button>
@@ -193,11 +221,12 @@ Play Multimedia
 
 
 export const query = graphql`
-  query($skip: Int!) {
+  query($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { template: { eq: "blog-post" } } }
       skip: $skip
+      limit: $limit
     ) {
       edges {
         node {

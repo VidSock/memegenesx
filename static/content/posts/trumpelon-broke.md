@@ -49,7 +49,7 @@ tags:
  - trump
  - elon
  - gay
-spotlight: true
+
 ---
 
 <!-- ## You make the decision! -->

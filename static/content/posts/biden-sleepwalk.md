@@ -47,7 +47,7 @@ category: memes
 tags: 
  - biden
  - dumbass
-spotlight: true
+
 ---
 
 ## The White House was put on LOCKDOWN after the President was disovered missing

@@ -92,7 +92,7 @@ team.forEach((team) => {
   })
 
 // Create blog-list pages
-const postsPerPage = 6
+const postsPerPage = 18
 const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
 Array.from({ length: numPages }).forEach((_, i) => {

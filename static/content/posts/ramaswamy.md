@@ -51,7 +51,7 @@ category: memes
 tags: 
  - ramaswamy
  - election2024
-spotlight: true
+
 ---
 <div class="contentinside" style="">
 <!-- <img class="" src="/assets/matt-floating-head.webp" width="100%" style=" z-index:-1; opacity:;

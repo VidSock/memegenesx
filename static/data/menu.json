@@ -1,11 +1,7 @@
 {
   "menuItems": [
     {
-      "menutitle": "Keyword",
-      "url": "/tags"
-    },
-    {
-      "menutitle": "Archive",
+      "menutitle": "View Archives",
       "url": "/archive"
     }
   ]

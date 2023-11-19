@@ -46,7 +46,7 @@ maratingtx4:
 category: memes
 tags: 
  - rfkjr
-spotlight: true
+
 ---
 
 ## You make the decision!

@@ -46,7 +46,7 @@ maratingtx1: Washed Up
 maratingtx2: No Talent
 maratingtx3: Bullshit
 maratingtx4: 
-spotlight: true
+
 category: memes
 tags:
   - newshax

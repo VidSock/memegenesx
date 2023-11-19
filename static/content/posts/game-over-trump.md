@@ -48,7 +48,7 @@ tags:
  - trump
  - criminal
  - prison
-spotlight: true
+
 ---
 
 <!-- ## You make the decision! -->

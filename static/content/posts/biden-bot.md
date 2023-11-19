@@ -46,7 +46,7 @@ maratingtx1: Dumb Ass
 maratingtx2: 
 maratingtx3: 
 maratingtx4: 
-spotlight: true
+
 category: memes
 tags:
   - disney

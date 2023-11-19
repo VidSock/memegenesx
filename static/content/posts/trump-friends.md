@@ -48,7 +48,7 @@ tags:
   - trump
   - prison
   - tv
-spotlight: true
+
 ---
 
 ## Coming Next FALL

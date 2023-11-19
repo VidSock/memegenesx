@@ -50,6 +50,7 @@ category: memes
 tags: 
  - biden
  - senile
+spotlight: true
 ---
 
 <!-- <div class="contentinside" style="position:relative; z-index:0; min-width:50%; height:auto; margin-top:10%;  padding:1rem; font-size:clamp(1rem, 2.3vw, 3rem); left:0;, top:4vh; line-height:90%; text-shadow:0 2px 7px #000; background:rgba(0,0,0,0.8); border:0px solid yellow; text-align:center; width:100vw;">

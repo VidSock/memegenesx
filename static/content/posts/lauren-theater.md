@@ -54,7 +54,7 @@ tags:
  - politics
  - gop
  - trash
-spotlight: true
+
 ---
 
 <div style="position:absolute; top:75vh; text-shadow:2px 2px 2px #333; color:#1D9BF0 !important; padding-left:2vw; animation:fadeout 4s forwards; animation-delay:4s;">

@@ -50,7 +50,7 @@ tags:
  - mccarthy
  - fake
  - fraud
-spotlight: true
+
 ---
 
 <!-- ## You make the decision! -->

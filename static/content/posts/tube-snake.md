@@ -52,7 +52,7 @@ category: memes
 tags: 
  - tuberville
  - deviants
-spotlight: true
+
 ---
 <div class="contentinside" style="">
 <!-- <img class="" src="/assets/matt-floating-head.webp" width="100%" style=" z-index:-1; opacity:0;

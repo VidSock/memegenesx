@@ -34,7 +34,7 @@ svgImage:
 scrollable: false
 showZoom: true
 showPageNav: true
-spotlight: true
+
 nftdrop: "2023-02-11T10:00:00"
 contentinvideo: false
 marating1: YB

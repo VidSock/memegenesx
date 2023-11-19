@@ -46,7 +46,7 @@ maratingtx1: Gun Safety
 maratingtx2: OSHA Approved
 maratingtx3: 
 maratingtx4: 
-spotlight: true
+
 category: memes
 tags:
   - guns
