@@ -1,13 +1,15 @@
 ---
 template: blog-post
-category: memes
-title: MTG releases the cover of her upcoming book
-slug: /mtg-book
-date: 2023-11-10 06:57
-description: MTG releases the cover of her upcoming book
+title: How you doin?!
+slug: /trump-daughter
+date: 2023-11-19 01:33
+description: Trump hits on someone he thinks is his daughter
+comments: false
 shareable: true
 showZoom: true
 showPageNav: true
+tags:
+  - trump
 youtube:
   youtubemute: false
   youtubeautostart: false
@@ -15,5 +17,5 @@ youtube:
   youtubecontrols: false
   customcontrols: false
   clicktoplay: false
-featuredImage: /assets/mtg-book.webp
+featuredImage: /assets/trump-drunk.webp
 ---

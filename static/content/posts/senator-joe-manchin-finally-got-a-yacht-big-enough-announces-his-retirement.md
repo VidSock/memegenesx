@@ -1,12 +1,13 @@
 ---
 template: blog-post
+category: memes
 title: Senator Joe Manchin finally got a yacht big enough, announces his retirement
 slug: /joe-manchin-boat
 date: 2023-11-10 07:10
 description: Senator Joe Manchin finally got a yacht big enough, announces his retirement
-category: memes
 shareable: true
 showZoom: true
+showPageNav: true
 tags:
   - joemanchin
 youtube:
