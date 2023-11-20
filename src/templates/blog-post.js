@@ -1374,7 +1374,7 @@ zindex:'1'
 {/* <time sx={{color: "muted"}}>{frontmatter.date}</time> */}
 
 {showDates ? (
-  <div>
+  <div className="timeago">
     Posted:{" "}
     <time title={frontmatter.date} sx={{ color: "" }}>
       <TimeAgo date={frontmatter.date} style={{ color: "" }} />
