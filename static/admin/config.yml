@@ -421,34 +421,6 @@ collections:
                 label: Description
                 default: ""
                 required: false
-              - widget: image
-                name: image
-                label: Default OG Image
-                required: true
-                default: "/assets/default-og-image.webp"
-              - widget: image
-                name: iconimage
-                label: Site Logo (should be SVG if at all possible)
-              - widget: image
-                name: favicon16x16
-                label: Site Favicon 16x16 (name image like 'favicon-16x16.png')
-                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
-                default: "/assets/favicon-16x16.png"
-              - widget: image
-                name: favicon32x32
-                label: Site Favicon 32x32 (name image like 'favicon-16x16.png')
-                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
-                default: "/assets/favicon-32x32.png"
-              - widget: image
-                name: icon192
-                label: Site Icon 192x192 (name image like 'icon-192x192.png')
-                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
-                default: "/assets/icon-192x192.png"
-              - widget: image
-                name: icon512
-                label: Site Icon 512x512 (name image like 'icon-512x512.png')
-                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
-                default: "/assets/icon-512x512.png"
               - widget: string
                 name: twitterUsername
                 label: Twitter user (no '@' justthename)
@@ -525,7 +497,34 @@ collections:
                 name: font1
                 label: Google Font
                 required: false
-
+              - widget: image
+                name: image
+                label: Default OG Image
+                required: true
+                default: "/assets/default-og-image.webp"
+              - widget: image
+                name: iconimage
+                label: Site Logo (should be SVG if at all possible)
+              - widget: image
+                name: favicon16x16
+                label: Site Favicon 16x16 (name image like 'favicon-16x16.png')
+                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
+                default: "/assets/favicon-16x16.png"
+              - widget: image
+                name: favicon32x32
+                label: Site Favicon 32x32 (name image like 'favicon-16x16.png')
+                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
+                default: "/assets/favicon-32x32.png"
+              - widget: image
+                name: icon192
+                label: Site Icon 192x192 (name image like 'icon-192x192.png')
+                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
+                default: "/assets/icon-192x192.png"
+              - widget: image
+                name: icon512
+                label: Site Icon 512x512 (name image like 'icon-512x512.png')
+                hint: "You can use the same 512x512 image for all at the expense of users with slower connections"
+                default: "/assets/icon-512x512.png"
           #     - widget: string
           #       name: menu1
           #       label: Menu Title 1
