@@ -69,7 +69,7 @@ const TagIndex = ({ data }) => {
                 // const { featuredImage } = node.frontmatter;
 
                 return (
-                  <div key={node.fields.slug} className="post-card1" style={{ justifyContent: "center", alignItems: "center" }}>
+                  <div className="post-card1" key={node.fields.slug} style={{marginTop:''}}>
       
                     <Link className="postlink" to={node.fields.slug}>
 
@@ -80,7 +80,7 @@ const TagIndex = ({ data }) => {
       className="featured-image1"
       placeholder="blurred"
       loading="eager"
-      style={{ position: 'relative', zIndex: '1', maxHeight: '', margin: '0 auto' }}
+      style={{ position: 'relative', zIndex: '1', maxHeight: '', margin: '0 auto', width:'100%' }}
     />
 ) : (
 
@@ -88,7 +88,7 @@ const TagIndex = ({ data }) => {
       className="featured-image1"
       src="../../static/assets/default-og-image.webp"
       alt="Default Image"
-      style={{ position: 'relative', zIndex: '' }}
+      style={{ position: 'relative', zIndex: '', width:'100%' }}
     />
 
 )}
