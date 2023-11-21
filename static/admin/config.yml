@@ -21,25 +21,25 @@ show_preview_links: false
 
 collections:
   
-  - name: "team"
-    editor:
-      preview: false
-    label: "Pirate Posts"
-    label_singular: "Pirate Post"
-    description: >
-      Pirate Posts - your content on Pirate
-    folder: "static/content/team"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Team Member Name", name: "name", widget: "string"}
-      - {label: "Job Title", name: "jobTitle", widget: "string"}
-      - {label: "Credentials", name: "credentials", widget: "string"}
-      - {label: "Page Order", name: "order", widget: "number"}
-      - {label: "Team Image", name: "profilePicture", widget: "image", required: false,}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "team"
+  #   editor:
+  #     preview: false
+  #   label: "Pirate Posts"
+  #   label_singular: "Pirate Post"
+  #   description: >
+  #     Pirate Posts - your content on Pirate
+  #   folder: "static/content/team"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+  #     - {label: "Slug", name: "slug", widget: "string"}
+  #     - {label: "Team Member Name", name: "name", widget: "string"}
+  #     - {label: "Job Title", name: "jobTitle", widget: "string"}
+  #     - {label: "Credentials", name: "credentials", widget: "string"}
+  #     - {label: "Page Order", name: "order", widget: "number"}
+  #     - {label: "Team Image", name: "profilePicture", widget: "image", required: false,}
+  #     - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     editor:
@@ -59,26 +59,26 @@ collections:
           widget: "hidden",
           default: "blog-post",
         }
-      - {
-          label: "Category",
-          name: "category",
-          widget: "select",
-          required: false,
-          options: [
-            {
-              label: "News",
-              value: "news",
-            },
-            {
-              label: "Info",
-              value: "info",
-            },
-            {
-              label: "Feature",
-              value: "feature",
-            },
-          ],
-        }
+      # - {
+      #     label: "Category",
+      #     name: "category",
+      #     widget: "select",
+      #     required: false,
+      #     options: [
+      #       {
+      #         label: "News",
+      #         value: "news",
+      #       },
+      #       {
+      #         label: "Info",
+      #         value: "info",
+      #       },
+      #       {
+      #         label: "Feature",
+      #         value: "feature",
+      #       },
+      #     ],
+      #   }
 
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - {
@@ -113,6 +113,8 @@ collections:
       - { label: "Make Feature Image Zoom", name: "showZoom", widget: "boolean", default: true, required: false }
       - { label: "Turn on Page Level Nav", name: "showPageNav", widget: "boolean", default: true, required: false }
       - { label: "Appear on Homepage", name: "spotlight", widget: "boolean", default: false, required: false }
+
+
 
 
 
@@ -293,8 +295,8 @@ collections:
           - { label: "Profile Title", name: "profTitle", widget: "string", default: "" }
           - { label: "Profile Text", name: "profText", widget: "string", default: "" }
 
-          - { label: "Skills Title", name: "skillsTitle", widget: "string", default: "", required: false }
-          - { label: "Skills Text", name: "skillsText", widget: "string", default: "" }
+          # - { label: "Skills Title", name: "skillsTitle", widget: "string", default: "", required: false }
+          # - { label: "Skills Text", name: "skillsText", widget: "string", default: "" }
           
 
 
@@ -322,19 +324,19 @@ collections:
                 label: "Custom Cover Link"
                 widget: "string"
                 
-      - label: "About"
-        name: "about"
-        file: "static/content/pages/about.md"
-        fields:
-          - {
-              label: "Template",
-              name: "template",
-              widget: "hidden",
-              default: "about-page",
-            }
-          - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+      # - label: "About"
+      #   name: "about"
+      #   file: "static/content/pages/about.md"
+      #   fields:
+      #     - {
+      #         label: "Template",
+      #         name: "template",
+      #         widget: "hidden",
+      #         default: "about-page",
+      #       }
+      #     - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
+      #     - { label: "Title", name: "title", widget: "string" }
+      #     - { label: "Body", name: "body", widget: "markdown" }
       - label: "Contact"
         name: "contact"
         file: "static/content/pages/contact.md"
@@ -524,41 +526,41 @@ collections:
                 label: Google Font
                 required: false
 
-              - widget: string
-                name: menu1
-                label: Menu Title 1
-                required: false
-                default: Info
+          #     - widget: string
+          #       name: menu1
+          #       label: Menu Title 1
+          #       required: false
+          #       default: Info
 
-              - widget: string
-                name: menu2
-                label: Menu Title 
-                required: false
-                default: Posts
+          #     - widget: string
+          #       name: menu2
+          #       label: Menu Title 
+          #       required: false
+          #       default: Posts
 
-              - widget: string
-                name: menu3 
-                label: Menu Title 3
-                required: false
-                default: Resume
+          #     - widget: string
+          #       name: menu3 
+          #       label: Menu Title 3
+          #       required: false
+          #       default: Resume
 
-              - widget: string
-                name: menu4
-                label: Menu Title 4
-                required: false
-                default: Skills
+          #     - widget: string
+          #       name: menu4
+          #       label: Menu Title 4
+          #       required: false
+          #       default: Skills
                 
               
 
-          - label: "Commenting – Go to: https://commentbox.io - sign up for free account "
-            name: comments
-            widget: string
-            hint: "Add your CommentBox ID – should look like xxxxxxxxxxxxxxxx-proj"
-            required: false
-          - label: "Google Analytics"
-            name: ga
-            widget: string
-            hint: "Add your tracking ID, should look like UA-XXXXXXXXX-X or G-XXXXXXXXXX"
+          # - label: "Commenting – Go to: https://commentbox.io - sign up for free account "
+          #   name: comments
+          #   widget: string
+          #   hint: "Add your CommentBox ID – should look like xxxxxxxxxxxxxxxx-proj"
+          #   required: false
+          # - label: "Google Analytics"
+          #   name: ga
+          #   widget: string
+          #   hint: "Add your tracking ID, should look like UA-XXXXXXXXX-X or G-XXXXXXXXXX"
 
 
 
