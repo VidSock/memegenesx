@@ -237,7 +237,6 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
           # - { label: "Secondary Image", name: "secondaryImage", widget: "image", hint: "this image is used for the profile photo in the info section", required: false }
-          - { label: "Site Background Image", name: "image", widget: "image", hint: "this image is used for the background on the homepage", required: false }
           - { label: "Underlay Image", name: "underlayImage", widget: "image", required: false }
           - { label: "SVG Image", name: "svgImage", widget: "image", required: false}
           # - { label: "SVG Z-Index", name: "svgzindex", widget: "string", required: false }
@@ -500,7 +499,7 @@ collections:
                 required: false
               - widget: image
                 name: image
-                label: Default OG Image
+                label: Site Background Image
                 required: true
                 default: "/assets/default-og-image.webp"
               - widget: image
