@@ -125,9 +125,8 @@ const handleSubmit = e => {
 </div> */}
 
 
-<form
+{/* <form
   className={`contact-form flexcheek ${submitted ? "submitted" : ""}`}
-  // action="/thanks"
   name="contact"
   method="POST"
   data-netlify="true"
@@ -187,7 +186,7 @@ const handleSubmit = e => {
       {frontmatter.contactupload && (
    <label htmlFor="attachment1" style={{padding: '0', color: 'inherit', textShadow:'1px 1px 0 #555', display:'flex', width:'100%', fontSize:'90%', gap:'15px', justifyContent:'center', alignItems:'center'}}>
         <input className="file-input hidden" type="file" name="file" 
-        // accept=".pdf,.doc,.docx" 
+        accept=".pdf,.doc,.docx" 
         />{frontmatter.uploadtext}
       </label>
   )}
@@ -202,7 +201,7 @@ const handleSubmit = e => {
       </p>
     </>
   )}
-</form>
+</form> */}
 
         </div>
       </div>
