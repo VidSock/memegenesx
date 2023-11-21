@@ -461,20 +461,20 @@ collections:
                 name: showfooter
                 label: Show the Footer
                 required: false
-              - widget: boolean
-                name: showFeature 
-                label: Show Feature 
-                required: false
+              # - widget: boolean
+              #   name: showFeature 
+              #   label: Show Feature 
+              #   required: false
 
-              - widget: boolean
-                name: showInfo 
-                label: Show Info 
-                required: false
+              # - widget: boolean
+              #   name: showInfo 
+              #   label: Show Info 
+              #   required: false
 
-              - widget: boolean
-                name: showPosts 
-                label: Show Posts 
-                required: false
+              # - widget: boolean
+              #   name: showPosts 
+              #   label: Show Posts 
+              #   required: false
 
               - widget: boolean
                 name: showNav 
@@ -501,25 +501,25 @@ collections:
                 label: Show Swipe Icon
                 required: false
 
-              - widget: boolean
-                name: showCover
-                label: Show Cover Link
-                required: false
+              # - widget: boolean
+              #   name: showCover
+              #   label: Show Cover Link
+              #   required: false
 
-              - widget: boolean
-                name: showResume
-                label: Show Resume
-                required: false
+              # - widget: boolean
+              #   name: showResume
+              #   label: Show Resume
+              #   required: false
 
-              - widget: boolean
-                name: showSkills
-                label: Show Skills
-                required: false
+              # - widget: boolean
+              #   name: showSkills
+              #   label: Show Skills
+              #   required: false
 
-              - widget: boolean
-                name: showModals
-                label: Show Modals
-                required: false
+              # - widget: boolean
+              #   name: showModals
+              #   label: Show Modals
+              #   required: false
 
               - widget: string
                 name: font1
