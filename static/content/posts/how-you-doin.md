@@ -8,6 +8,7 @@ comments: false
 shareable: true
 showZoom: true
 showPageNav: true
+spotlight: true
 tags:
   - trump
 youtube:
