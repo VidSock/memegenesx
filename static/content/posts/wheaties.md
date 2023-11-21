@@ -4,7 +4,7 @@ title: What happened to Bruce?
 slug: /wheaties
 date: 2014-09-15 11:43
 description: One of the premiere specimens of the male human form has a new look
-category: memes
+
 tags:
   - celebrity
 youtube:

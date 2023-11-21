@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Trump's Reign of Fire
 slug: /trump-reign-of-fire
 date: 2023-11-10 07:01

@@ -43,7 +43,7 @@ maratingtx1:
 maratingtx2: Systemic Racism
 maratingtx3: Deranged Views
 maratingtx4: Definitely a Cult
-category: memes
+
 tags:
   - traitor
   - threetoes

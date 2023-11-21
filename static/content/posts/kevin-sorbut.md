@@ -47,7 +47,7 @@ maratingtx2: No Talent
 maratingtx3: Bullshit
 maratingtx4: 
 
-category: memes
+
 tags:
   - newshax
   - tv

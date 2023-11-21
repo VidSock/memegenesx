@@ -43,7 +43,7 @@ maratingtx1: Spineless Traitor
 maratingtx2: Strong Sexual Situations
 maratingtx3: Intense Violence
 maratingtx4: 
-category: memes
+
 tags: 
  - trump
  - criminal

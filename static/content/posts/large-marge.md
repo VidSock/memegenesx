@@ -43,7 +43,7 @@ maratingtx1: Q Anon's girlfriend
 maratingtx2: Sexually Grotesque
 maratingtx3: Dumb as Rocks
 maratingtx4: Trash to the T
-category: memes
+
 tags:
   - dumpster
   - qrazy

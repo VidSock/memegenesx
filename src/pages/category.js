@@ -63,9 +63,9 @@ const CategoryIndex = ({ data, pageContext }) => {
 
    
           {categories.slice(0, visibleItems).map(category => (
-          <div className="post-card12 font" key={category} style={{border:'0px solid red', display:'grid', width:'100%', maxWidth:'', height:'70vh', placeContent:'center', textTransform:'capitalize' }}>
+          <div className="post-card12 font" key={category} style={{border:'0px solid red', display:'grid', width:'100%', maxWidth:'', height:'90%', minHeight:'350px', placeContent:'center', textTransform:'capitalize', background:'rgba(0, 0, 0, 0.5)', border:'1px solid #999', borderRadius:'8px' }}>
 
-            <Link style={{display:'grid', placeContent:'center', maxHeight:'250px', width:'100%', maxWidth:'350px', overFlow:'hidden', margin:'0 auto', padding:'18vh 20vw', border:'1px solid #999',fontSize:'clamp(3rem, 3.4vw, 3.2rem)',  background:'rgba(0, 0, 0, 0.5)', color:'#fff', textShadow:'2px 2px 0 #222',  backdropFilter:'blur(12px)', borderRadius:'8px', opacity:'.8'}} to={`/category/${category}`}>view<br />{category}</Link>
+            <Link style={{display:'grid', placeContent:'center', maxHeight:'250px', width:'18vh 20vw', maxWidth:'250px', overFlow:'hidden', margin:'0 auto', padding:'', fontSize:'clamp(3rem, 3.4vw, 3.2rem)', color:'#fff', textShadow:'2px 2px 0 #222',  backdropFilter:'blur(12px)', borderRadius:'8px', opacity:'.8'}} to={`/category/${category}`}>{category}</Link>
 
           </div>
         ))}

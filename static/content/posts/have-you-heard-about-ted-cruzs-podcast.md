@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Have you heard about Ted Cruz's Podcast?
 slug: /ted-cruz-podcast
 date: 2023-11-10 07:05

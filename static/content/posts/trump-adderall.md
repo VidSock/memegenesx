@@ -43,7 +43,7 @@ maratingtx1: Drug Addict
 maratingtx2: Crack Head
 maratingtx3: Many People Are Saying
 maratingtx4: 
-category: memes
+
 tags: 
  - trump
  - drugs

@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Will anyone ever buy Teds book?
 slug: /buy-teds-book
 date: 2023-11-10 06:43

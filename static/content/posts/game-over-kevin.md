@@ -43,7 +43,7 @@ maratingtx1: Dumbass
 maratingtx2: Gutless
 maratingtx3: Spineless
 maratingtx4: 
-category: memes
+
 tags: 
  - worst
  - speaker

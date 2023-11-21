@@ -47,7 +47,7 @@ maratingtx2: OSHA Approved
 maratingtx3: 
 maratingtx4: 
 
-category: memes
+
 tags:
   - guns
   - baldwin

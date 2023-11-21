@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Lauren Boebert starts 900 number side hustle
 slug: /lauren-phone-sex
 date: 2023-11-10 07:18

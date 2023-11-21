@@ -46,7 +46,7 @@ maratingtx1: Vile Grifter
 maratingtx2: 
 maratingtx3: Drama Queen
 maratingtx4: It's all about me
-category: memes
+
 tags:
   - trump
   - water

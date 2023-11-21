@@ -48,7 +48,7 @@ maratingtx1: Eww!
 maratingtx2: Qrazy
 maratingtx3: Drama Queen
 maratingtx4: Trump Slurper
-category: memes
+
 tags: 
  - tuberville
  - deviants

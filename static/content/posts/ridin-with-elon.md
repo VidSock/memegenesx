@@ -44,7 +44,7 @@ maratingtx1: Dumb Ass
 maratingtx2: Sleazy Princess
 maratingtx3: Congressional Misconduct
 maratingtx4: 
-category: memes
+
 tags: 
  - elonmusk
  - tesla

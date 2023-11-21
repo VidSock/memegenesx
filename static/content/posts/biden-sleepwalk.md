@@ -43,7 +43,7 @@ maratingtx1: Dumb Ass
 maratingtx2: Total BS
 maratingtx3: 
 maratingtx4: 
-category: memes
+
 tags: 
  - biden
  - dumbass

@@ -4,7 +4,7 @@ title: SBM looking for chill
 slug: /cosby
 date: 2014-09-15 11:43
 description: Like qualudes and short walks on the beach?
-category: memes
+
 tags:
   - celebrity
 youtube:

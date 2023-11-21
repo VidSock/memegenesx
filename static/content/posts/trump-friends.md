@@ -43,7 +43,7 @@ maratingtx1: Dumb Ass
 maratingtx2: Must Watch TV
 maratingtx3: No Friends
 maratingtx4: 
-category: memes
+
 tags: 
   - trump
   - prison

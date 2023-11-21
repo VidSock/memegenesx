@@ -2,6 +2,7 @@
 template: blog-post
 category:
   - trump
+  - memes
 title: How you doin?!
 slug: /trump-daughter
 date: 2023-11-19 01:33
@@ -10,7 +11,8 @@ shareable: true
 showZoom: true
 spotlight: true
 tags:
-  - trump
+  - butt
+  - chug
 youtube:
   youtubemute: false
   youtubeautostart: false

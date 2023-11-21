@@ -4,7 +4,7 @@ title: Lauren Boebert announces new restaurant based on her life story
 slug: /tiddies-bar
 date: 2023-09-15 08:03
 description: Lauren isn't afraid to put on the apron and show you what she's got!
-category: memes
+
 tags:
   - boebert
   - trash

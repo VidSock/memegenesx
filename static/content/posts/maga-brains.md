@@ -4,7 +4,7 @@ title: The only way Trump can Make America Great Again
 slug: /maga-brains
 date: 2017-09-15 11:43
 description: The last thing to go through his mind at night is how to Make America Great Again.
-category: memes
+
 tags:
   - celebrity
   - trump

@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: MTG releases the cover of her upcoming book
 slug: /mtg-book
 date: 2023-11-10 06:57

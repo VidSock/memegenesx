@@ -47,7 +47,7 @@ maratingtx2:
 maratingtx3: 
 maratingtx4: 
 
-category: memes
+
 tags:
   - disney
   - biden

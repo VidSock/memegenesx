@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Republican debate - is a freak show
 slug: /republican-debate-freakshow
 date: 2023-11-10 06:35

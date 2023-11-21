@@ -1,6 +1,6 @@
 ---
 template: blog-post
-category: memes
+
 title: Silence of the lambs - Trump sheep
 slug: /trump-sheep
 date: 2023-11-10 07:24
