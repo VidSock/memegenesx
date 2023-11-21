@@ -1,8 +1,5 @@
 ---
 template: blog-post
-category:
-  - trump
-  - memes
 title: How you doin?!
 slug: /trump-daughter
 date: 2023-11-19 01:33
