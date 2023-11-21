@@ -500,7 +500,7 @@ collections:
               - widget: image
                 name: image
                 label: Site Background Image
-                required: true
+                required: false
                 default: "/assets/default-og-image.webp"
               - widget: image
                 name: iconimage
