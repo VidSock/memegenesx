@@ -2,7 +2,7 @@
 template: contact-page
 slug: /contact
 redirect: false
-contactname: true
+contactname: false
 contactphone: false
 contactupload: false
 scrollable: false
