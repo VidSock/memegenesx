@@ -108,7 +108,7 @@ collections:
       #   }
 
       - { label: "SEO Description", name: "description", widget: "text" }
-      - { label: "Make Comments Available?", name: "comments", widget: "boolean", default: false, required: false }
+      # - { label: "Make Comments Available?", name: "comments", widget: "boolean", default: false, required: false }
       - { label: "Make Post Shareable?", name: "shareable", widget: "boolean", default: true, required: false }
       - { label: "Make Feature Image Zoom", name: "showZoom", widget: "boolean", default: true, required: false }
       - { label: "Turn on Page Level Nav", name: "showPageNav", widget: "boolean", default: true, required: false }
@@ -302,27 +302,27 @@ collections:
 
           - { label: "Body", name: "body", widget: "markdown" }
 
-          - label: "CTA"
-            name: "cta"
-            widget: "object"
-            fields:
-              - name: "ctaText"
-                label: "CTA text"
-                widget: "string"
-              - name: "ctaLink"
-                label: "CTA Link"
-                widget: "string"
+          # - label: "CTA"
+          #   name: "cta"
+          #   widget: "object"
+          #   fields:
+          #     - name: "ctaText"
+          #       label: "CTA text"
+          #       widget: "string"
+          #     - name: "ctaLink"
+          #       label: "CTA Link"
+          #       widget: "string"
 
-          - label: "Cover Letter"
-            name: "coverletter"
-            widget: "object"
-            fields:
-              - name: "coverText"
-                label: "Custom Cover Letter Text"
-                widget: "string"
-              - name: "coverLink"
-                label: "Custom Cover Link"
-                widget: "string"
+          # - label: "Cover Letter"
+          #   name: "coverletter"
+          #   widget: "object"
+          #   fields:
+          #     - name: "coverText"
+          #       label: "Custom Cover Letter Text"
+          #       widget: "string"
+          #     - name: "coverLink"
+          #       label: "Custom Cover Link"
+          #       widget: "string"
                 
       # - label: "About"
       #   name: "about"
@@ -407,7 +407,7 @@ collections:
                 name: title
                 label: Site Title
                 required: true
-              - widget: string
+              - widget: hidden
                 name: titleTemplate
                 label: Title Template (ignore)
                 default: "%s"
@@ -429,10 +429,10 @@ collections:
                 name: companyname
                 label: Company Name or Site Name
                 required: true
-              - widget: boolean
-                name: showfooter
-                label: Show the Footer
-                required: false
+              # - widget: boolean
+              #   name: showfooter
+              #   label: Show the Footer
+              #   required: false
               # - widget: boolean
               #   name: showFeature 
               #   label: Show Feature 
@@ -458,10 +458,10 @@ collections:
                 label: Show Side Nav
                 required: false
 
-              - widget: boolean
-                name: showSocial 
-                label: Show Social Links
-                required: false
+              # - widget: boolean
+              #   name: showSocial 
+              #   label: Show Social Links
+              #   required: false
 
               - widget: boolean
                 name: showSearch
@@ -563,46 +563,46 @@ collections:
 
 
 
-      - label: Social Icons
-        name: socialIcons
-        editor:
-          preview: false
-        file: "static/data/socialmedia.json"
-        fields:
-          - label: Social Icons
-            name: socialIcons
-            widget: list
-            collapsed: true
-            hint: "Here you can add social icons, Click on 'Add social icons'"
-            fields:
-              - label: "Icons"
-                name: "icon"
-                widget: "select"
-                options:
-                  [
-                    "facebook",
-                    "twitter",
-                    "linkedin",
-                    "youtube",
-                    "instagram",
-                    "rss",
-                    "github",
-                    "telegram",
-                    "pinterest",
-                    "snapchat",
-                    "skype",
-                    "wordpress",
-                    "dribbble",
-                    "medium",
-                    "behance",
-                    "vk",
-                  ]
-                hint: "Select the Icon"
-              - widget: string
-                name: url
-                label: url
-                required: true
-                hint: "Paste the 'URL' of your Social media"
+      # - label: Social Icons
+      #   name: socialIcons
+      #   editor:
+      #     preview: false
+      #   file: "static/data/socialmedia.json"
+      #   fields:
+      #     - label: Social Icons
+      #       name: socialIcons
+      #       widget: list
+      #       collapsed: true
+      #       hint: "Here you can add social icons, Click on 'Add social icons'"
+      #       fields:
+      #         - label: "Icons"
+      #           name: "icon"
+      #           widget: "select"
+      #           options:
+      #             [
+      #               "facebook",
+      #               "twitter",
+      #               "linkedin",
+      #               "youtube",
+      #               "instagram",
+      #               "rss",
+      #               "github",
+      #               "telegram",
+      #               "pinterest",
+      #               "snapchat",
+      #               "skype",
+      #               "wordpress",
+      #               "dribbble",
+      #               "medium",
+      #               "behance",
+      #               "vk",
+      #             ]
+      #           hint: "Select the Icon"
+      #         - widget: string
+      #           name: url
+      #           label: url
+      #           required: true
+      #           hint: "Paste the 'URL' of your Social media"
 
       - label: Menu Navigation
         name: menuNavigation
